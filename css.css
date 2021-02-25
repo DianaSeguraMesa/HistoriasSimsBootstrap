@@ -1,0 +1,86 @@
+body {
+    background-color:#C6F1F2;
+  }
+  
+  h1 {
+    color: white;
+    text-align: left;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .menu{
+    margin: 50px;
+    padding: 20px;
+    font-size: 20px;
+    width: 500px;
+    height: 20px;
+    border-bottom-color:lightgrey; border-bottom-style:solid; border-bottom-width:2px;
+border-top-color:lightgrey; border-top-style:solid; border-top-width:2px;
+  }
+  li{
+      display: inline;
+      float: right;
+  }
+
+  a {
+    padding: 8px;
+  }
+
+  #Diana {position: absolute ; left: 300px; top: 50px; 
+    font-family: 'Noticia Text', serif; font-size: 43px; color: rgb(80, 78, 78);
+  }
+
+  #top {position: absolute ; right: 300px; top: 50px; 
+  }
+
+  .image{
+    border-radius: 200px;
+    width: 400px;
+    height: 400px;
+    position: absolute ; left: 270px ; top: 230px;
+  }
+  a:link, a:visited {
+    color: lightgray;
+    padding: 3px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  #hola{
+    position: absolute ; right: 400px; top: 200px; font-family: 'Amatic SC', cursive; font-size: 57px; color: grey;
+  }
+
+  #texto{
+    position: absolute ; left: 750px; top: 350px; font-family: 'Amatic SC', cursive;
+    font-family: 'Open Sans', sans-serif;  font-size: 13px;
+  }
+
+  .sims{
+    position: absolute ; left: 700px; top: 500px; border: solid 2px; padding-top: 45px;
+    padding-right: 15px;
+    padding-bottom: 45px;
+    padding-left: 15px; color: #4B4B4B;
+  }
+
+  .nuevo{
+    position: absolute ; left: 865px; top: 500px; border: solid 2px; padding-top: 45px;
+    padding-right: 20px;
+    padding-bottom: 45px;
+    padding-left: 20px; color: #4B4B4B;
+  }
+
+  .mods{
+    position: absolute ; left: 1020px; top: 500px; border: solid 2px; padding-top: 45px;
+    padding-right: 15px;
+    padding-bottom: 45px;
+    padding-left: 15px; color: #4B4B4B;
+  }
+
+  .footer{
+    position: absolute ; left: 0px; top: 650px; background-color: #E73657 ; width: 1560px; height: 100px; 
+  }
